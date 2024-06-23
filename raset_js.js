@@ -13,7 +13,6 @@ ScrollReveal().reveal('.abt,.sub',{delay:600,origin:'bottom'});
 ScrollReveal().reveal('#Adv-main',{delay:700,origin:'left'});
 ScrollReveal().reveal('.headProf',{delay:700,origin:'right',interval:200});
 
-ScrollReveal().reveal('#subsys',{delay:200,origin:'top'});
 ScrollReveal().reveal('.item1',{delay:400,origin:'bottom'});
 ScrollReveal().reveal('.item2',{delay:700,origin:'bottom'});
 ScrollReveal().reveal('.item3',{delay:1000,origin:'bottom'});
