@@ -22,7 +22,7 @@ ScrollReveal().reveal('#main-title',{delay:500,origin:'bottom'});
 ScrollReveal().reveal('.abut .image',{delay:700,origin:'left'});
 ScrollReveal().reveal('.text-box',{delay:800,origin:'right'});
 
-ScrollReveal().reveal('.media-icons i',{delay:500,origin:'bottom',interval:200});
+ScrollReveal().reveal('.media-icons i',{delay:220,origin:'bottom',interval:80});
 
 
 
