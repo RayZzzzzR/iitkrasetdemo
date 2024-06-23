@@ -143,7 +143,7 @@ nav img{
 	color:#fff;
 	border:2px solid #fff;
 	padding:12px 34px;
-	margin: 65px 0 0 0 ;
+	margin: 45px 0 0 0 ;
 	font-size:20px;
 	background:transparent;
 	position:relative;
@@ -196,7 +196,7 @@ nav img{
 .abut h1{
 	font-size:48px;
 	font-weight:570;
-	padding-top:75px;
+	padding-top:70px;
 	color:#f2f9fc;
 }
 .subsystems h1{
@@ -261,7 +261,7 @@ nav img{
 	font-size:30px;
 	font-weight:470;
 	color:#f2f9fc;
-	padding-top:25px;
+	padding-top:10px;
 }
 .headProf {
   display: flex;
