@@ -100,11 +100,11 @@ header .fa-times{
 }
 .main-text h1{
 	font-size:80px;
-	font-family: Share Tech Mono ,Open Sans;
+	font-family: Open Sans;
 }
 #main1{
 	font-size:35px;
-	font-family:Share Tech Mono ,Open Sans;
+	font-family: Open Sans;
 }
 #main2{
 	font-family: Share Tech Mono , Open Sans;
@@ -112,7 +112,7 @@ header .fa-times{
 	font-size:20px;
 }
 .abut{
-	font-family: 'Share Tech Mono', 'Open Sans';
+	font-family: 'Open Sans';
 	width:auto;
 	margin:auto;
 	text-align:center;
@@ -145,6 +145,7 @@ header .fa-times{
     margin:  4.3rem 0 7.7rem 0;
     letter-spacing: .2rem;
     font-weight: 700;
+    font-family:Share Tech Mono,Open Sans;
 }
 .abut .row{
     display: flex;
@@ -225,7 +226,7 @@ header .fa-times{
     transform: scale(1.03);
 }
 .subsystems{
-    font-family: Share Tech Mono,Open Sans,Lato;
+    font-family: Open Sans,Lato;
     margin: 9rem 0 0 0;
 }
 .conbox{
@@ -246,18 +247,20 @@ header .fa-times{
 	font-size:48px;
 	font-weight:570;
 	padding:45px 0 60px 0;
-    margin: 70px 0 0 0;
+        margin: 70px 0 0 0;
 	color:#f2f9fc;
+	font-family: Share Tech Mono,Open Sans;
 }
 .h1conbox2{
 	font-size:48px;
 	font-weight:570;
 	padding:45px 0 60px 0;
-    margin: 70px 0 -290px 0;
+        margin: 70px 0 -290px 0;
 	color:#f2f9fc;
+	font-family:Share Tech Mono,Open Sans;
 }
 .Team{
-    font-family: 'Share Tech Mono', 'Open Sans';
+    font-family: 'Open Sans';
 	width:auto;
 	margin:-290px 0 0 0;
 	text-align:center;
@@ -280,7 +283,7 @@ header .fa-times{
     margin: 0 auto; /* Centers the image horizontally */
 }
 .Gallery{
-    font-family: 'Share Tech Mono', 'Open Sans';
+    font-family: 'Open Sans';
 	width:auto;
 	margin:-270px 0 0 0;
 	text-align:center;
@@ -582,7 +585,7 @@ overflow: hidden;
         font-family:Open Sans;
     }
     #main2{
-        font-family: Share Tech Mono , Open Sans;
+        font-family: Open Sans;
         margin: 12px 0 0 0;
         font-size:15px;
     }
