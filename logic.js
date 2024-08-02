@@ -204,6 +204,8 @@ ScrollReveal({
     ScrollReveal().reveal('.h1conbox',{delay:200,origin:'bottom'});
     ScrollReveal().reveal('.teamimg',{delay:200,origin:'bottom'});
     ScrollReveal().reveal('.gall-article',{delay:200,origin:'bottom'});
+    ScrollReveal().reveal('.h1conbox2',{delay:200,origin:'bottom'});
+
     ScrollReveal().reveal('.team-text',{delay:200,origin:'bottom'});
     
     ScrollReveal().reveal('.abut .image',{delay:700,origin:'left'});
