@@ -1,29 +1,19 @@
+$(document).ready(function(){
+    $('.fa-bars').click(function(){
+        $(this).toggleClass('fa-times');
+        $('.navbar').toggleClass('nav-toggle');
+    });
 
-ScrollReveal({
-reset:false,
-distance: '60px',
-duration:2500,
-delay:400
+    $(window).on('scroll load',function(){
+        $(this).removeClass('fa-times');
+        $('.navbar').removeClass('nav-toggle');
+        if($(window).scrollTop() > 30){
+            $('header').addClass('header-active');
+        }else{
+            $('header').removeClass('header-active');
+        }
+    });
 });
-ScrollReveal().reveal('.WEtext',{delay:400,origin:'top'});
-ScrollReveal().reveal('#main1',{delay:500,origin:'top'});
-ScrollReveal().reveal('#main2',{delay:600,origin:'top'});
-
-ScrollReveal().reveal('.abt,.sub',{delay:600,origin:'bottom'});
-ScrollReveal().reveal('#Adv-main',{delay:700,origin:'left'});
-ScrollReveal().reveal('.headProf',{delay:700,origin:'right',interval:200});
-
-ScrollReveal().reveal('.item1',{delay:400,origin:'bottom'});
-ScrollReveal().reveal('.item2',{delay:700,origin:'bottom'});
-ScrollReveal().reveal('.item3',{delay:1000,origin:'bottom'});
-ScrollReveal().reveal('.item4',{delay:1300,origin:'bottom'});
-ScrollReveal().reveal('#main-title',{delay:500,origin:'bottom'});
-ScrollReveal().reveal('.abut .image',{delay:700,origin:'left'});
-ScrollReveal().reveal('.text-box',{delay:800,origin:'right'});
-
-ScrollReveal().reveal('.media-icons i',{delay:220,origin:'bottom',interval:80});
-
-
 
 const STAR_COLOR = '#fff';
 const STAR_SIZE = 3;
@@ -201,4 +191,31 @@ const observer = new IntersectionObserver(entries => {
 
 observer.observe(document.querySelector('section'));
 
+ScrollReveal({
+    reset:false,
+    distance: '60px',
+    duration:2500,
+    delay:400
+    });
+    
+    ScrollReveal().reveal('.abt',{delay:600,origin:'bottom'});
 
+    ScrollReveal().reveal('.subsystem-heading',{delay:200,origin:'bottom'});
+    ScrollReveal().reveal('.h1conbox',{delay:200,origin:'bottom'});
+    ScrollReveal().reveal('.teamimg',{delay:200,origin:'bottom'});
+    ScrollReveal().reveal('.gall-article',{delay:200,origin:'bottom'});
+    ScrollReveal().reveal('.team-text',{delay:200,origin:'bottom'});
+    
+    ScrollReveal().reveal('.abut .image',{delay:700,origin:'left'});
+    ScrollReveal().reveal('.content',{delay:800,origin:'right'});
+    
+    ScrollReveal().reveal('.media-icons i',{delay:300,origin:'bottom',interval:80});
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navTabs = document.getElementById('nav-tabs');
+      
+        mobileMenu.addEventListener('click', function() {
+          navTabs.classList.toggle('active');
+        });
+      });
