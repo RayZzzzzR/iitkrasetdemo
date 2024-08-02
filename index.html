@@ -1,139 +1,189 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IITKRASET</title>
-	<link rel="stylesheet" href="raset_css.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-	<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-	<script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
-    <section class="header">
-	    <nav>
-		  <div class="nav__data">
-		    <a href="index.html" class="nav-logo"><img src = "rsslogo.png"></a>
-		  </div>
-			<div class="nav-tabs">
-			   <ul>
-		          <a href="index.html" class="nav__link"><li>HOME</li></a>
-				  <a href="" class="nav__link"><li>ACHIEVEMENTS</li></a>
-				  <a href="" class="nav__link"><li>RECURITMENT</li></a>
-				  <a href="" class="nav__link"><li>TEAM</li></a>
-				  <a href="" class="nav__link"><li>CONTACT US</li></a>
-			   </ul>
-			</div>
-		</nav>
-		<div id="animation-section">
-        <canvas></canvas>
-        </div>
-		<div class="main-text">
-		    <h1 class="WEtext">IITK RASET</h1>
-			<p id="main1">IIT KANPUR ROCKETRY & SPACE EXPLORATION TEAM</p>
-			<p id="main2">We are a team of students from IIT Kanpur enthusiastic about building Experimental Rockets and meaningful payloads.</p>
-			<a href="#aboutus" class="abt">ABOUT US</a>
-		</div>
-	</section>
-	<section class="clouds"></section>
-	<section class="abut"id="aboutus">
-	   <div id="abutop">
-	    <h1 id="main-title">About us</h1>
-		<div class="content">
-		    <div class="image">
-			  <img src="FalconH.jpg" alt="FAILED">
-			</div>
-			<div class="text-box">
-			  <h3 style="text-align:left; padding-bottom:10px;">OUR AIM</h3>
-			  <p style="color:white; text-align:left;">Our aim is to ignite the passion for space tech among the campus community by building experimental rockets and meaningful payloads from scratch. We usually participate in competitions like the Spaceport America Cup and Latin America Space Challenge to compete with teams from leading universities around the globe.</p>
-			  <p style="color:white; text-align:left;">Inspired by the Jugnu nano-satellite mission (2008-11) of IIT Kanpur.</p>
-			</div>
-	   </div>
-	   <a href="#Advisors" class="abt">OUR ADVISORS</a>
-	   </div>
-	   <div id="Advisors">
-		<h3 id="Adv-main" style="font-size:48px; font-weight:500;">OUR  FACULTY   ADVISORS</h3>
-		<div class="headProf">
-		  <div class="Profff">
-			<img src="akushari.jpg" alt="Dr. Abhijit Kushari">
-			<div><h3>Dr. Abhijit Kushari</h3></div>
-		  </div>
-		  <div class="Profff">
-			<img src="Rkitey.jpg" alt="Dr. Rajesh Kitey">
-			<div><h3>Dr. Rajesh Kitey</h3></div>
-		  </div>
-		  <div class="Profff">
-			<img src="AshDe.jpg" alt="Dr. Ashok De">
-			<div><h3>Dr. Ashok De</h3></div>
-		  </div>
-		</div>
-	   </div>
-	   <a href="#subsys" class="sub">SUBSYSTEMS</a>
-	</section>
-	<section class="subsystems" id="subsystems">
-	   <div class="conbox">
-	    <h1 id="subsys" style="font-size:30px;">OUR  SUBSYSTEMS</h1>
-		<div class="container">
-			<div class="item1">
-				<h3 style="color:white;  font-size:18px; font-weight:650;">AVIONICS & RECOVERY</h3>
-				<br>
-				<p style="color:white; text-align:left;">Avionics encompasses the electronic systems used for communication, navigation, monitoring, and control in aircraft, satellites, and spacecraft.
-				Recovery, on the other hand, refers to the processes and technologies used to safely return spacecraft or aircraft to Earth. This involves designing re-entry vehicles to withstand intense heat, using parachutes to slow descent, and employing landing systems like gear or retro-thrusters for controlled landings.</p>
-			</div>
-			<div class="item2">
-				<h3 style="color:white; font-size:18px; font-weight:650;">PAYLOAD</h3>
-				<br>
-				<p style="color:white; text-align:left;">The payload of an aircraft, spacecraft, or satellite refers to the cargo or instruments it carries, which are intended to accomplish its primary mission. 
-                In satellites, this often includes scientific instruments, communication transponders, or imaging equipment.The payload is a critical factor in mission planning and design, influencing the vehicle's size, structure, and fuel requirements.
-				Maximizing payload efficiency is essential for achieving mission objectives while maintaining safety and operational effectiveness.</p>
-			</div>
-			<div class="item3">
-				<h3 style="color:white;  font-size:18px; font-weight:650;">AERODYNAMICS & STRUCTURES</h3>
-				<br>
-				<p style="color:white; text-align:left;">Aerodynamics and structures are fundamental aspects of aerospace engineering, crucial for the design and performance of aircraft and spacecraft. Aerodynamics focuses on the behavior of air as it flows around a vehicle, influencing factors like lift, drag, and stability. 
-				Structures, on the other hand, pertain to the physical framework of the vehicle, including its materials and construction methods. This involves ensuring the vehicle can withstand various stresses and strains during operation, such as those experienced during takeoff, flight, and landing.
-				</p>
-			</div>
-			<div class="item4">
-				<h3 style="color:white; font-size:18px; font-weight:650;">PROPULSION</h3>
-				<br>
-				<p style="color:white; text-align:left;">Propulsion is the mechanism that drives aircraft, rockets, and spacecraft by generating thrust. In aircraft, propulsion is typically provided by jet engines or propellers, which convert fuel into forward motion by expelling exhaust gases at high speeds. 
-                Spacecraft propulsion systems can vary from traditional chemical rockets to advanced technologies like ion thrusters, which use electric fields to accelerate ions and produce thrust. Effective propulsion systems are crucial for achieving and maintaining flight.</p>
-			</div>
-	    </div>
-	   </div>
-	</section>
-	<footer class="last">
-   <div class="containerf">
-      <div class="box1">
-         <div class="box2">
-            <div class="media-icons">
-               <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
-               <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
-               <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
-               <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
-			   <a href="#" class="icon"><i class="fab fa-discord"></i></a>
-
-            </div>
-         </div>
-      </div>
-      <div class="footer-content">
-         <div class="useful-links">
-            <h3>Useful Links</h3>
+	<header>
+        <div class="logo"><a href="index.html" class="logo"><img src = "rsslogo.png"></a></div>
+        <nav class="navbar">
             <ul>
-               <li><a href="#">Achievements</a></li>
-               <li><a href="#">Recuritment</a></li>
-               <li><a href="#">Contact us</a></li>
-               <li><a href="#">SnT IITK</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="">Achievements</a></li>
+                <li><a href="">Recuritment</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Contact us</a></li>
             </ul>
+        </nav>
+        <div class="fas fa-bars">
+
+        </div>
+    </header>
+    <section>
+    <div id="animation-section">
+        <canvas></canvas>
+    </div>
+    <div class="main-text">
+        <h1 class="WEtext">IITK  RASET</h1>
+        <p id="main1">IIT KANPUR ROCKETRY & SPACE EXPLORATION TEAM</p>
+        <p id="main2">We are a team of students enthusiastic about building Experimental Rockets & meaningful payloads.</p>
+        <a href="#aboutus" class="abt">ABOUT US</a>
+    </div>
+    </section>
+    <section class="abut" id="aboutus">
+         <h1 id="main-title">About us</h1>
+         <div class="row">
+            <div class="image">
+                <img src="FalconH.jpg" alt="FAILED">
+              </div>
+            <div class="content">
+                <h3 style="text-align:left; padding-bottom:10px; font-family: Share Tech Mono;">OUR AIM</h3>
+                <p style="color:white; text-align:left;">Our aim is to ignite the passion for space tech among the campus community by building experimental rockets and meaningful payloads from scratch. We usually participate in competitions like the Spaceport America Cup and Latin America Space Challenge to compete with teams from leading universities around the globe.</p>
+                <p style="color:white; text-align:left;">Inspired by the Jugnu nano-satellite mission (2008-11) of IIT Kanpur.</p>
+            </div>
+             </div>
+     </section>
+     <section class="subsystems" id="subsystems">
+        <div class="container">
+         <h1 class="subsystem-heading" style="font-size:45px;">OUR SUBSYSTEMS</h1>
+         <div class="card-container">
+             <div class="card" id="item1">
+                <i class="fa-solid fa-microchip fa-2xl" style="color: #ffffff;"></i>
+                 <h3 style="color:white;  font-size:18px; font-weight:650;">AVIONICS & RECOVERY</h3>
+                 <p style="color:white; text-align:left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris massa, ultricies ullamcorper rutrum nec, molestie non magna. Etiam ornare risus sit amet luctus accumsan. Nunc aliquet facilisis mi, et ornare sem ultrices consequat. Cras ornare porttitor congue. Fusce eget tortor ligula. Nulla facilisi. Maecenas at volutpat felis. In sit amet accumsan metus. Maecenas eget porta ligula. Fusce venenatis elit quis rhoncus condimentum. Aliquam vestibulum nunc eu massa ullamcorper aliquet convallis in libero.</p>
+                 <a href="" class="card-button">Learn more</a>
+             </div>
+             <div class="card" id="item2">
+                <i class="fa-solid fa-parachute-box fa-2xl" style="color: #ffffff;"></i>
+                 <h3 style="color:white; font-size:18px; font-weight:650;">PAYLOAD</h3>
+                 <p style="color:white; text-align:left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris massa, ultricies ullamcorper rutrum nec, molestie non magna. Etiam ornare risus sit amet luctus accumsan. Nunc aliquet facilisis mi, et ornare sem ultrices consequat. Cras ornare porttitor congue. Fusce eget tortor ligula. Nulla facilisi. Maecenas at volutpat felis. In sit amet accumsan metus. Maecenas eget porta ligula. Fusce venenatis elit quis rhoncus condimentum. Aliquam vestibulum nunc eu massa ullamcorper aliquet convallis in libero.</p>
+                 <a href="" class="card-button">Learn more</a>
+             </div>
+             <div class="card" id="item3">
+                 <i class="fa-solid fa-plane-departure fa-2xl" style="color: #ffffff"></i>
+                 <h3 style="color:white;  font-size:18px; font-weight:650;">AERODYNAMICS & STRUCTURES</h3>
+                 <p style="color:white; text-align:left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris massa, ultricies ullamcorper rutrum nec, molestie non magna. Etiam ornare risus sit amet luctus accumsan. Nunc aliquet facilisis mi, et ornare sem ultrices consequat. Cras ornare porttitor congue. Fusce eget tortor ligula. Nulla facilisi. Maecenas at volutpat felis. In sit amet accumsan metus. Maecenas eget porta ligula. Fusce venenatis elit quis rhoncus condimentum. Aliquam vestibulum nunc eu massa ullamcorper aliquet convallis in libero.
+                 </p>
+                 <a href="" class="card-button">Learn more</a>
+             </div>
+             <div class="card" id="item4">
+                 <i class="fa-solid fa-fire-flame-curved fa-2xl" style="color: #ffffff;"></i>
+                 <h3 style="color:white; font-size:18px; font-weight:650;">PROPULSION</h3>
+                 <p style="color:white; text-align:left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris massa, ultricies ullamcorper rutrum nec, molestie non magna. Etiam ornare risus sit amet luctus accumsan. Nunc aliquet facilisis mi, et ornare sem ultrices consequat. Cras ornare porttitor congue. Fusce eget tortor ligula. Nulla facilisi. Maecenas at volutpat felis. In sit amet accumsan metus. Maecenas eget porta ligula. Fusce venenatis elit quis rhoncus condimentum. Aliquam vestibulum nunc eu massa ullamcorper aliquet convallis in libero.</p>
+                 <a href="" class="card-button">Learn more</a>
+             </div>
          </div>
-      </div>
-   </div>
-   <div class="textbox">
-            <p style="color:#373a40;">&copy; 2024 IIT Kanpur Rocketry & Space Exploration Team. All rights reserved.</p>
-         </div>
-</footer>
-	<script src="raset_js.js"></script>
+        </div>
+     </section>
+     <section class="Team">
+		<div class="conbox">
+			<h1 class="h1conbox" style="font-size:45px;">OUR TEAM</h1>
+		</div>
+		<div class="teamimg">
+			<img src="RASET.jpeg" alt="Team image">
+		</div>
+        <div class="team-text">
+            <p style="text-align: center; font-size: 1.5rem; color: #ffffff; width: 70%; margin: 0 auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris massa, ultricies ullamcorper rutrum nec, molestie non magna. Etiam ornare risus sit amet luctus accumsan. Nunc aliquet facilisis mi, et ornare sem ultrices consequat. Cras ornare porttitor congue. Fusce eget tortor ligula. Nulla facilisi. Maecenas at volutpat felis. In sit amet accumsan metus.</p>
+            <p style="text-align: center; font-size: 1.5rem; color: #ffffff; width: 70%; margin: 0 auto;">Maecenas eget porta ligula. Fusce venenatis elit quis rhoncus condimentum. Aliquam vestibulum nunc eu massa ullamcorper aliquet convallis in libero.</p>
+            <a href="" class="team-more" style="text-align: center; margin-top: 10px;">Learn More</a>
+        </div>
+	</section>
+    <section class="Gallery">
+		<div class="conbox">
+			<h1 class="h1conbox" style="font-size:45px; margin-bottom: -290px;">GALLERY</h1>
+		</div>
+        <div class="gall-container">
+            <div class="gall">
+                <article class="gall-article">
+                    <img src="im3.jpg" alt="" class="gall-img">
+                    <div class="gall-data">
+                        <span class="gall-description" style="font-size: 1.2rem;">blah dje djk aiwjw erfs slit amet ipsum secrff rasert amet</span>
+                        <a href="" class="gall-button" style="font-size: 1rem;">Read More</a>
+                    </div>
+                </article>
+                <article class="gall-article">
+                    <img src="im1.jpg" alt="" class="gall-img">
+                    <div class="gall-data">
+                        <span class="gall-description" style="font-size: 1.3rem;">blah dje djk aiwjw erfs slit amet ipsum secrff rasert amet dwerw sdkj wsejwkr jfsdj ipsum</span>
+                        <a href="" class="gall-button" style="font-size: 1rem;">Read More</a>
+                    </div>
+                </article>
+                <article class="gall-article">
+                    <img src="im6.jpg" alt="" class="gall-img">
+                    <div class="gall-data">
+                        <span class="gall-description" style="font-size: 1.3rem;">blah dje djk aiwjw erfs slit amet ipsum secrff rasert amet acluso notor dolor slit amet rabuzz headueus notor us slit slit ipsumm</span>
+                        <a href="" class="gall-button" style="font-size: 1rem;">Read More</a>
+                    </div>
+                </article>
+                <article class="gall-article">
+                    <img src="im3.jpg" alt="" class="gall-img">
+                    <div class="gall-data">
+                        <span class="gall-description" style="font-size: 1.3rem;">blah dje djk aiwjw erfs slit amet ipsum secrff rasert amet lorem ipsum</span>
+                        <a href="" class="gall-button" style="font-size: 1rem;">Read More</a>
+                    </div>
+                </article>
+                <article class="gall-article">
+                    <img src="im1.jpg" alt="" class="gall-img">
+                    <div class="gall-data">
+                        <span class="gall-description" style="font-size: 1.3rem;">blah dje djk aiwjw erfs slit amet ipsum secrff rasert amet lol oloko d aksj d dkasjewqe mckdms sjeoj </span>
+                        <a href="" class="gall-button" style="font-size: 1rem;">Read More</a>
+                    </div>
+                </article>
+                <article class="gall-article">
+                    <img src="im6.jpg" alt="" class="gall-img">
+                    <div class="gall-data">
+                        <span class="gall-description" style="font-size: 1.3rem;">blah dje djk aiwjw erfs slit amet ipsum secrff rasert amet</span>
+                        <a href="" class="gall-button" style="font-size: 1rem;">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+	</section>
+    <footer class="last">
+        <div class="containerf">
+           <div class="box1">
+              <div class="box2">
+                 <div class="media-icons">
+                    <a href="#" class="icon"><i class="fab fa-facebook fa-xl"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-instagram fa-xl"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-linkedin fa-xl"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-youtube fa-xl"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-discord fa-xl"></i></a>
+                 </div>
+              </div>
+           </div>
+           <div class="footer-content">
+              <div class="useful-links">
+                 <h3 style="font-size:1.75rem;">Useful Links</h3>
+                 <ul>
+                    <li><a href="#" style="font-size:1.15rem;">Achievements</a></li>
+                    <li><a href="#" style="font-size:1.15rem;">Recuritment</a></li>
+                    <li><a href="#" style="font-size:1.15rem;">Contact us</a></li>
+                    <li><a href="#" style="font-size:1.15rem;">SnT IITK</a></li>
+                 </ul>
+              </div>
+           </div>
+        </div>
+        <div class="textbox">
+                 <p style="color:#373a40;">&copy; 2024 IIT Kanpur Rocketry & Space Exploration Team. All rights reserved.</p>
+              </div>
+     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="logic.js"></script>
   </body>
 </html>
