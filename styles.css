@@ -87,7 +87,6 @@ header .fa-bars{
 header .fa-times{
     transform:rotate(180deg);
     color: #f7941d;
-    
 }
 .main-text{
 	width:90%;
@@ -366,7 +365,6 @@ header .fa-times{
     margin: 0 auto; /* Centers the paragraphs horizontally */
     padding: 10px 0; /* Adds padding between paragraphs */
   }
-  
   .team-more {
     display: inline-block;
     margin-top: 10px;
@@ -376,7 +374,6 @@ header .fa-times{
     padding: 8px 16px;
     border-radius: 2px;
   }
-  
   .team-more:hover {
     background-color: #ffffff;
     color: #000000;
