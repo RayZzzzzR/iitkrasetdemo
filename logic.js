@@ -198,19 +198,14 @@ ScrollReveal({
     delay:400
     });
     
-    ScrollReveal().reveal('.abt',{delay:600,origin:'bottom'});
-
-    ScrollReveal().reveal('.subsystem-heading',{delay:200,origin:'bottom'});
-    ScrollReveal().reveal('.h1conbox',{delay:200,origin:'bottom'});
-    ScrollReveal().reveal('.teamimg',{delay:200,origin:'bottom'});
-    ScrollReveal().reveal('.gall-article',{delay:200,origin:'bottom'});
+    ScrollReveal().reveal('.abt',{delay:400,origin:'bottom'});
+    ScrollReveal().reveal('.h1conbox',{delay:100,origin:'bottom',mobile:false});
+    ScrollReveal().reveal('.teamimg',{delay:100,origin:'bottom',mobile:false});
+    ScrollReveal().reveal('.gall-article',{delay:100,origin:'bottom'});
     ScrollReveal().reveal('.h1conbox2',{delay:200,origin:'bottom'});
-
-    ScrollReveal().reveal('.team-text',{delay:200,origin:'bottom'});
-    
-    ScrollReveal().reveal('.abut .image',{delay:700,origin:'left'});
-    ScrollReveal().reveal('.content',{delay:800,origin:'right'});
-    
+    ScrollReveal().reveal('.card-container',{delay:300,origin:'bottom'});
+    ScrollReveal().reveal('.team-text',{delay:100,origin:'bottom'});
+	
     ScrollReveal().reveal('.media-icons i',{delay:300,origin:'bottom',interval:80});
     
     document.addEventListener('DOMContentLoaded', function() {
